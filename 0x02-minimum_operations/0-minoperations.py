@@ -18,5 +18,7 @@ def minOperations(n):
 if __name__ == "__main__":
     test_cases = [4, 12]
     for n in test_cases:
-        print("Min # of operations to reach {} char: {}".format(n, minOperations(n)))
+        print(
+        "Min # of operations to reach {} char: {}".format(n, minOperations(n))
+            )
 
