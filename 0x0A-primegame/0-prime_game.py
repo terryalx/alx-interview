@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Prime Game"""
+"""Prime Game."""
 
 
 def isWinner(x, nums):
-    """function that checks for the winner."""
+    """function that checks for the winner"""
     if not nums or x < 1:
         return None
     max_num = max(nums)
@@ -26,9 +26,9 @@ def isWinner(x, nums):
     if player1 * 2 == len(nums):
         return None
     if player1 * 2 > len(nums):
-        return "Fola"
-    return "Efe"
+        return "Maria"
+    return "Ben"
 
 
 if __name__ == "__main__":
-    assert isWinner(5, [2, 5, 1, 4, 3]) == "Efe", "Expected Efe"
+    assert isWinner(5, [2, 5, 1, 4, 3]) == "Ben", "Expected Ben"
